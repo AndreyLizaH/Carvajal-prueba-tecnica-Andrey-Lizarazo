@@ -16,7 +16,7 @@ Ejecuta la aplicación en el modo de desarrollo en el puerto que se indica.
 La página se volverá a cargar cuando realice cambios.
 También puede ver errores en la consola si así lo desea.
 
-### npm version
+###  `npm version `
 
 Este código no esta elaborado por la ultima versión de npm si presneta algún problema la versión utilizada fue la (5.3.0).
 [npm install react-router-dom@5.3.0] ejecute en consola para usar la versión.
