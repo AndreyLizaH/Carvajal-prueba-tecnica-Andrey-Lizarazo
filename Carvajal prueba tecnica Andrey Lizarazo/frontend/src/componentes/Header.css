@@ -1,0 +1,63 @@
+/*Color de la barra de navegacion*/
+.header{
+    overflow: hidden;
+    background-color: #15A9D8;
+}
+/* Se define el color de la letra del menú*/
+.header p{
+    float: left;
+    color:rgb(0, 247, 255);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 15px;
+    border-radius: 4px;
+}
+
+.header j{
+    float: left;
+    color:rgb(0, 247, 255);
+    text-align: center;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 30px;
+
+}
+
+/* Se define el color del logo o titulo de la página*/
+.header p.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(0, 247, 255);
+}
+
+/*Se define el color del paso de navegacion con el mouse (hover)*/
+.header p:hover{
+    background-color: rgb(255, 255, 255) ;
+    color:rgb(0, 0, 0);
+}
+
+
+.header p.active{
+    background-color: rgb(255, 255, 255) ;
+    color:rgb(0, 0, 0);
+}
+
+.header-right{
+    float: right;
+}
+
+/* Se define los parametros de la barra de navegación*/
+@media screen and (max-width:500px) {
+    .header p{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right{
+        float: none;
+    }
+}
